@@ -1,0 +1,43 @@
+/* Removed Tailwind directives for plain CSS compatibility */
+
+body {
+	font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+	background-color: #18181b;
+	color: #e5e7eb;
+}
+
+.bg-main {
+	background-color: #18181b;
+}
+.text-accent {
+	color: #22c55e;
+}
+.bg-accent {
+	background-color: #22c55e;
+}
+.card {
+	background-color: #23272f;
+	border-radius: 0.75rem;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,0.12);
+	padding: 1.5rem;
+}
+.card-title {
+	color: #fff;
+	font-weight: 600;
+	font-size: 1.25rem;
+}
+.card-desc {
+	color: #a1a1aa;
+	font-size: 1rem;
+}
+.btn-main {
+	background-color: #22c55e;
+	color: #fff;
+	border-radius: 0.5rem;
+	padding: 0.75rem 2rem;
+	font-weight: 500;
+	transition: background 0.2s;
+}
+.btn-main:hover {
+	background-color: #16a34a;
+}
